@@ -61,7 +61,7 @@ public class LoginSteps {
      }
 
     @Then("the user verifies the balance matches the API balance")
-    public void verifyBalance() throws InterruptedException {
+    public void verifyBalance() {
 
         String apiBalance = ApiHelper.getMemberBalance();
         String balanceWithoutEuro = uiBalance.replace("€", "");;

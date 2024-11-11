@@ -8,7 +8,7 @@ import io.restassured.specification.RequestSpecification;
 
 public class ApiHelper {
 
-    public static String getMemberBalance() throws InterruptedException {
+    public static String getMemberBalance(){
 
         RestAssured.baseURI = "https://luckybandit.club.test-delasport.com/en";
 
